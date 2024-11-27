@@ -1,4 +1,4 @@
-# Multiscale mathematical model-informed reinforcement learning (M4RL) framework supporting codes and usage instructions
+# Multiscale mathematical model-informed reinforcement learning (M4RL) 
 
 ## Abstract ##
 
