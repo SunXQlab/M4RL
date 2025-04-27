@@ -167,7 +167,7 @@ void Diffusibles::diffusion(CellGrids &cg, double tstep) {
             for(int i=1; i<99; ++i){
                 for(int j=1; j<99; ++j){
                     if(cg.vas[i][j] == 1){
-                        CSF1R_I[i][j] = CSF1R_I[i][j] + q_CSF1R_I * (1.0 - CSF1R_I[i][j]);
+                        CSF1R_I[i][j] = CSF1R_I[i][j] + q_CSF1R_I * (0.0 - CSF1R_I[i][j]);
                     }      
                 }
             }

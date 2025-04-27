@@ -1486,21 +1486,35 @@ void Environment::simulate(double days){
 /*
    REFERENCES
    
-   Quail, D.F., et al., The tumor microenvironment underlies acquired resistance to 
-   CSF-1R inhibition in gliomas. Science, 2016. 352(6288): p. aad3018.
-   
-   Zheng, Y., et al., A spatio-temporal model of macrophage-mediated drug resistance 
-   in glioma immunotherapy. Mol Cancer Ther, 2018. 17(4): p. 814-824.
-   
-   Cess, C.G. and S.D. Finley, Multi-scale modeling of macrophage-T cell interactions 
-   within the tumor microenvironment. PLoS Comput Biol, 2020. 16(12): p. e1008519.
-   
-   Anderson, A.R., A hybrid mathematical model of solid tumour invasion: the importance 
-   of cell adhesion. Math Med Biol, 2005. 22(2): p. 163-86.
-   
-   Anderson, A.R.A.J.B.B., A Hybrid Discrete-continuum Technique for Individual-based 
-   Migration Models. 2003.
+    D. F. Quail, R. L. Bowman, L. Akkari, M. L. Quick, A. J. Schuhmacher, J. T. Huse, 
+    E. C. Holland, J. C. Sutton, J. A. Joyce, The tumor microenvironment underlies 
+    acquired resistance to CSF-1R inhibition in gliomas. Science 352, aad3018 (2016).
+
+    Y. Zheng, J. Bao, Q. Zhao, T. Zhou, X. Sun, A spatio-temporal model of macrophage-mediated 
+    drug resistance in glioma immunotherapy. Mol Cancer Ther 17, 814-824 (2018).
+
+    C. G. Cess, S. D. Finley, Multi-scale modeling of macrophage-T cell interactions 
+    within the tumor microenvironment. PLoS Comput Biol 16, e1008519 (2020).
+
+    A. R. A. Anderson, A hybrid mathematical model of solid tumour invasion: the 
+    importance of cell adhesion. Mathematical medicine and biology : a journal of 
+    the IMA 22, 163-186 (2005).
+
+    A. R. A. Anderson, “A Hybrid Discrete-continuum Technique for Individual-based 
+    Migration Models” in Polymer and Cell Dynamics, W. Alt, M. Chaplain, M. Griebel, 
+    J. Lenz, Eds. (Birkhäuser, Basel, Switzerland, 2003).
  
-   Ravi, V.M., et al., Spatially resolved multi-omics deciphers bidirectional tumor-host 
-   interdependence in glioblastoma. Cancer Cell, 2022. 40(6): p. 639-655.e13.
+    V. M. Ravi, P. Will, J. Kueckelhaus, N. Sun, K. Joseph, H. Salié, L. Vollmer, 
+    U. Kuliesiute, J. von Ehr, J. K. Benotmane, N. Neidert, M. Follo, F. Scherer, 
+    J. M. Goeldner, S. P. Behringer, P. Franco, M. Khiat, J. Zhang, U. G. Hofmann, 
+    C. Fung, F. L. Ricklefs, K. Lamszus, M. Boerries, M. Ku, J. Beck, R. Sankowski, 
+    M. Schwabenland, M. Prinz, U. Schüller, S. Killmer, B. Bengsch, A. K. Walch, 
+    D. Delev, O. Schnell, D. H. Heiland, Spatially resolved multi-omics deciphers 
+    bidirectional tumor-host interdependence in glioblastoma. Cancer Cell 40, 
+    639-655.e613 (2022).
+
+    J. Kueckelhaus, S. Frerich, J. Kada-Benotmane, C. Koupourtidou, J. Ninkovic, 
+    M. Dichgans, J. Beck, O. Schnell, D. H. Heiland, Inferring histology-associated 
+    gene expression gradients in spatial transcriptomic studies. Nature Communications 
+    15, 7280 (2024).
  */

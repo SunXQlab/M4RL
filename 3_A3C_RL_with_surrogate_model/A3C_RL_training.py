@@ -701,9 +701,12 @@ if __name__ == "__main__":
 '''
     REFERENCE
 
-    Gallagher, K., et al., Mathematical Model-Driven Deep Learning Enables Personalized 
-    Adaptive Therapy. Cancer Res, 2024. 84(11): p. 1929-1941.
+    K. Gallagher, M. A. R. Strobl, D. S. Park, F. C. Spoendlin, R. A. Gatenby, P. K. Maini, 
+    A. R. A. Anderson, Mathematical Model-Driven Deep Learning Enables Personalized Adaptive 
+    Therapy. Cancer Res 84, 1929-1941 (2024).
 
-    Mnih, V., et al. Asynchronous Methods for Deep Reinforcement Learning. in International 
-    Conference on Machine Learning. 2016.
+    V. Mnih, A. P. Badia, M. Mirza, A. Graves, T. Harley, T. P. Lillicrap, D. Silver, 
+    K. Kavukcuoglu, Asynchronous Methods for Deep Reinforcement Learning, paper presented 
+    at the 33rd International Conference on International Conference on Machine Learning, 
+    New York, NY, 11 June 2016.
 '''

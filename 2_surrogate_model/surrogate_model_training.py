@@ -151,7 +151,7 @@ class PhysicsInformedNN():
         self.dnn_fTC = DNN(CC_layers).to(device)
         # load trained parameters
         #para_fTC = torch.load('surrogate_model/dnn_fTC_model.pth')      
-        #self.dnn_fCC.load_state_dict(para_fTC, strict=False)
+        #self.dnn_fTC.load_state_dict(para_fTC, strict=False)
 
         # DNN for SDE of M1 macrophage density 
         self.dnn_fM1 = DNN(CC_layers).to(device)
@@ -476,7 +476,6 @@ class PhysicsInformedNN():
 
     # LBFGS loss function for dnn_TC (and dnn_M1 if necessary)
     def loss_func(self):
-    
         loss_LBFGS = torch.zeros(self.train_data_num) 
         self.optimizer_LBFGS.zero_grad()
         
@@ -1173,7 +1172,7 @@ if __name__ == '__main__':
         )
         ax.set_title('$p(t,C)$', fontsize = 20) # font size doubled
         ax.tick_params(labelsize=15)
-        save_path = f'PINN_test/Exact_M1_{i}.pdf'
+        save_path = f'{figure_save_path}/Exact_M1_{i}.pdf'
         plt.savefig(save_path, format='pdf')
         
         # plot Pred_M1  
@@ -1195,7 +1194,7 @@ if __name__ == '__main__':
 
         ax.set_title('$p(t,C)$', fontsize = 20) # font size doubled
         ax.tick_params(labelsize=15)
-        save_path = f'PINN_test/Pred_M1_{i}.pdf'
+        save_path = f'{figure_save_path}/Pred_M1_{i}.pdf'
         plt.savefig(save_path, format='pdf')
 
     
@@ -1303,7 +1302,7 @@ if __name__ == '__main__':
                     ax.get_xticklabels() + ax.get_yticklabels()):
             item.set_fontsize(15)
 
-        save_path = f'PINN_test/Pred_M1_slice_{i}.pdf'
+        save_path = f'{figure_save_path}/Pred_M1_slice_{i}.pdf'
         plt.savefig(save_path, format='pdf')        
         '''
         
@@ -1689,7 +1688,8 @@ if __name__ == '__main__':
 
 # REFERENCE
 
-# A, M.R., P.P. B, and G.E.K.J.J.o.C.P. A, Physics-informed neural networks: A deep learning 
-# framework for solving forward and inverse problems involving nonlinear partial differential 
-# equations. Journal of Computational Physics, 2019. 378: p. 686-707.
+# M. Raissi, P.Perdikaris, G.E.Ksrniadakis, Physics-informed neural networks: 
+# A deep learning framework for solving forward and inverse problems involving 
+# nonlinear partial differential equations. Journal of Computational Physics 
+# 378, 686-707 (2019).
 
